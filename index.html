@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="slideshow-container">
+        <div class="slideimg fade">
+            <div class="numbertext">1/5</div>
+            <img src="./images/pexels-fauxels-3184454.jpg" alt="" style="width:100%">
+            <div class="text">Ahmed</div>
+        </div>
+        <div class="slideimg fade">
+            <div class="numbertext">2/5</div>
+            <img src="./images/pexels-lisa-fotios-3473411.jpg" alt="" style="width:100%">
+            <div class="text">Abdullah</div>
+        </div>
+        <div class="slideimg fade">
+            <div class="numbertext">3/5</div>
+            <img src="./images/pexels-thisisengineering-3861972.jpg" alt="" style="width:100%">
+            <div class="text">Welcome</div>
+        </div>
+        <div class="slideimg fade">
+            <div class="numbertext">4/5</div>
+            <img src="./images/pexels-thisisengineering-3862132.jpg" alt="" style="width:100%">
+            <div class="text">You</div>
+        </div>
+        <div class="slideimg fade">
+            <div class="numbertext">5/5</div>
+            <img src="./images/pexels-thisisengineering-3862632.jpg" alt="" style="width:100%">
+            <div class="text">Here</div>
+        </div>
+        <a class="prev" onclick="nextSlide(-1)">&#10094;</a>
+        <a class="next" onclick="nextSlide(1)">&#10095;</a>
+        <div style="text-align: center;">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            <span class="dot" onclick="currentSlide(5)"></span>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
